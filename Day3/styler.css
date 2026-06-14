@@ -1,0 +1,35 @@
+    /* positioning */
+
+
+ h2{
+    background-color: orange;
+   /* position: relative;
+    left: 100px; */
+} 
+
+ h3{
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    /* margin: 0px; */
+    left: 10px;
+    z-index: 8;
+
+} 
+
+
+h4{
+
+background-color: wheat;
+position: sticky;
+top: 0px;
+
+}
+p
+{
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 5;
+}
