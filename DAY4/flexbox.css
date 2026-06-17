@@ -1,0 +1,46 @@
+.container{
+    background-color: antiquewhite;
+
+    display: flex ;
+    flex-direction: row;
+    height: 500px;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    /* aline  item ka use crow axis ke liye hota ha*/
+    align-items: center;
+    /* flex-wrap: wrap;    */
+    /* flex wrap uses  for how our project web 
+    response in different electronic deviece
+    */
+    gap: 10px;
+
+justify-content: flex-start;
+}
+
+
+
+.box{
+
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first{
+    background-color:blueviolet;
+flex-basis: 200px;
+/* override the width or hight properties on the basis or row and coloum */
+}
+.second{
+    background-color: pink;
+    flex-shrink: 4;
+}
+.third{
+    background-color: green;
+
+
+}
+.fourth{
+    background-color: brown;
+    /* align-self: flex-end; */
+}
