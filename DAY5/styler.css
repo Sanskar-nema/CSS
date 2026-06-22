@@ -1,0 +1,45 @@
+.container{
+    height: 400px;
+    width: 400px;
+background-color: pink;
+}
+body{
+    background-color: black;
+}
+/* @media screen and (max-width :900px){
+    .container{
+        height: 500px;
+        width: 600px;
+        background-color: orange;
+    }
+} 
+    
+
+@media screen and (max-width :600px) {
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: aqua;
+        font-size: 30px;
+    }
+    
+} */
+
+@media screen and (min-width :600px) {
+    .container{
+       
+        background-color: aqua;
+        font-size: 0px;
+    }
+    
+} 
+@media screen and (min-width :900px) {
+    .container{
+        
+        background-color: green;
+        font-size: 80px;
+    }
+    
+} 
+
+
