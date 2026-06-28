@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+.container{
+   padding: 20px;
+
+   background-color: rgba(255, 255, 255, 0.509);
+   border: 1px solid rgba(255, 255, 255, 0.509);
+   font-size: 40px;
+   padding: 10px;
+   color: white;
+   width: 70%;
+   border-radius: 5px;
+   white-space: nowrap;
+   overflow: hidden;
+   
+
+}
+p{
+    margin-left: 90%;
+     animation-name: moving;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+}
+
+@keyframes moving 
+{
+    from{
+margin-left: 100%;
+    }
+
+    to{
+margin-left: -100%;
+    }
+    
+}
+
+
