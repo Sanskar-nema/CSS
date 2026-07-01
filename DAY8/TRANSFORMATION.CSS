@@ -12,7 +12,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 20px;
-
+perspective: 700px;
 }
 .box{
 height: 150px;
@@ -22,12 +22,32 @@ cursor: pointer;
 transition-property: all;
 transition-duration: 3s;
 transition-timing-function: ease-in;
+/* transform: translate(600px); */
+/* transform: rotate(30deg); */
+
+animation-name: moving;
+animation-duration: 5s;
+animation-iteration-count: infinite;
 }
+@keyframes moving {
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+transform: rotate(360deg);
+    }
+    
+    
+}
+
+
 .box:hover{
     /* background-color: purple;
     width: 200px; */
-  transform: scale(2);
-  transform: translate(100px,500px);
+  /* transform: scale(2); */
+  /* transform: translate(100px,500px); */
   /* transform: translateX(200px); */
+  /* transform: translateZ(200px); */
+  transform: rotateX(90deg);
 
 }
