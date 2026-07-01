@@ -11,7 +11,7 @@ background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;
-
+gap: 20px;
 
 }
 .box{
@@ -24,7 +24,10 @@ transition-duration: 3s;
 transition-timing-function: ease-in;
 }
 .box:hover{
-    background-color: purple;
-    width: 200px;
+    /* background-color: purple;
+    width: 200px; */
+  transform: scale(2);
+  transform: translate(100px,500px);
+  /* transform: translateX(200px); */
 
 }
